@@ -32,19 +32,14 @@ render() {
 		
 			{/*Elements table tasks and tasks*/}
 			<div className="container mt-5">
-			<div className="card d-inline-block ">
-			<div className="card-header d-flex align-items-baseline"><h3 className="pr-2">Родин Андрей</h3> <h4>Web-разработчик</h4></div>
+			<div className="card d-inline-block mx-2 my-2">
+			<div className="card-header d-flex"><h4 className="pr-2 mt-2">Родин Андрей</h4> <p className="bg-primary pl-2 pr-2 ">Web-разработчик</p></div>
 				<div className="card-body">
 					<div className="list-group">
-						<li className="list-group-item list-group-item-action">
-							Задача 1
+						<li className="list-group-item list-group-item-action d-flex justify-content-between align-items-baseline">
+							Задача 1 <button className="btn btn-danger btn-sm"><img src="deleter.png" alt=""/></button>
 						</li>
-						<li className="list-group-item list-group-item-action">
-							Задача 2
-						</li>
-						<li className="list-group-item list-group-item-action">
-							Задача 3
-						</li>
+					
 					</div>
 			</div>
 				<div className="card-footer mx-auto">
@@ -58,6 +53,7 @@ render() {
 					</div>
 				</div>
 				</div>
+				
 		</div>
 		</div>
 	);

@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac466c8-3433-4d32-b97d-815428d5a941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Above-The-Fold-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons8-отмена-24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logotask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/deleter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580203967038</updated>
       <workItem from="1580203970463" duration="6170000" />
-      <workItem from="1580329795508" duration="5246000" />
+      <workItem from="1580329795508" duration="6106000" />
     </task>
     <servers />
   </component>
