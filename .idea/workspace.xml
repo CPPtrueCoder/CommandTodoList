@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac466c8-3433-4d32-b97d-815428d5a941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/deleter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/authorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/create-tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/get-data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/post-tasks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-body/card-body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-body/card-body.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-body/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-header/card-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-header/card-header.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-header/card-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-header/card-header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/services/Todo-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/task-manager/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/task-manager/task-manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/task-manager/task-manager.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/app.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +54,20 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1X1BxYPuy1mgLpvnel0gKJ3YvHm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +77,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components\card-header" />
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components\app-header" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components" />
       <recent name="B:\OpenServer\OSPanel\domains\team-todo\public" />
     </key>
   </component>
@@ -92,38 +124,55 @@
       <option name="presentableId" value="Default" />
       <updated>1580203967038</updated>
       <workItem from="1580203970463" duration="6170000" />
-      <workItem from="1580329795508" duration="6106000" />
+      <workItem from="1580329795508" duration="6201000" />
+      <workItem from="1580540941523" duration="85000" />
+      <workItem from="1580744899660" duration="4710000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="515" y="293" key="EditFileWatcherDialog" timestamp="1580205548304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="515" y="293" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580205548304" />
-    <state width="1879" height="261" key="GridCell.Tab.0.bottom" timestamp="1580335103691">
+    <state width="1879" height="261" key="GridCell.Tab.0.bottom" timestamp="1580754060919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580335103691" />
-    <state width="1879" height="261" key="GridCell.Tab.0.center" timestamp="1580335103691">
+    <state width="1879" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580754060919" />
+    <state width="1879" height="261" key="GridCell.Tab.0.center" timestamp="1580754060919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580335103691" />
-    <state width="1879" height="261" key="GridCell.Tab.0.left" timestamp="1580335103691">
+    <state width="1879" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580754060919" />
+    <state width="1879" height="261" key="GridCell.Tab.0.left" timestamp="1580754060918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580335103691" />
-    <state width="1879" height="261" key="GridCell.Tab.0.right" timestamp="1580335103691">
+    <state width="1879" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580754060918" />
+    <state width="1879" height="261" key="GridCell.Tab.0.right" timestamp="1580754060919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580335103691" />
+    <state width="1879" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580754060919" />
     <state x="540" y="256" key="IDE.errors.dialog" timestamp="1580330715004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="256" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580330715004" />
+    <state x="764" y="440" key="NewPhpFileDialog" timestamp="1580748880910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="440" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580748880910" />
+    <state x="727" y="147" key="RollbackChangesDialog" timestamp="1580752924783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="147" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580752924783" />
+    <state x="595" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580745289422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580745289422" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580333758385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
