@@ -4,13 +4,15 @@
     <list default="true" id="dac466c8-3433-4d32-b97d-815428d5a941" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/Api/mail-services/PHPMailer.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Api/mail-services/SMTP.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Api/post-tasks/create-tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Api/post-tasks/post-tasks.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Api/put-tasks/put-tasks.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Hoc/with-data.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/modals/authorization/authorization.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/modals/authorization/authorization.sass" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/modals/authorization/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/calendar/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/calendar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/discription-modal/discription-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/discription-modal/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/task-card/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/task-card/task-card.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/task-card/task-card.sass" afterDir="false" />
@@ -166,7 +168,7 @@
       <workItem from="1580890014778" duration="298000" />
       <workItem from="1580890337521" duration="1339000" />
       <workItem from="1581355101103" duration="1455000" />
-      <workItem from="1581625990097" duration="747000" />
+      <workItem from="1581625990097" duration="1049000" />
     </task>
     <servers />
   </component>

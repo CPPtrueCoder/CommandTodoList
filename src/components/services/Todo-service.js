@@ -1,5 +1,5 @@
 export default class SwapiService {
-	_apibase = "../Api/create-tables.php";
+	_apibase = "../REST-API/create-tables.php";
 	
 	getResourse = async ()=>{
 		const res = await  fetch(`${this._apibase}`);
