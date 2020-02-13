@@ -2,33 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac466c8-3433-4d32-b97d-815428d5a941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Api/authorization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Api/create-tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Api/get-data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Api/post-tasks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app-header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-body/card-body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-body/card-body.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-body/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-header/card-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-header/card-header.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-header/card-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-header/card-header.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card-header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/Todo-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-manager/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-manager/task-manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/task-manager/task-manager.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/mail-services/PHPMailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/mail-services/SMTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/post-tasks/create-tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/post-tasks/post-tasks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/put-tasks/put-tasks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hoc/with-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/authorization/authorization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/authorization/authorization.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/authorization/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/task-card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/task-card/task-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/task-card/task-card.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/delete-tasks/delete-tasks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/create-tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/get-tasks/get-tasks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/get-data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/post-tasks.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/post-tasks/post-tasks.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/app.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Todo-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Todo-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,36 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesson@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesson@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesson@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lesson: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,26 +88,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Api/mail-services" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components\card-header" />
-      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components\app-header" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\Api\mail-services" />
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\Api" />
       <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components" />
       <recent name="B:\OpenServer\OSPanel\domains\team-todo\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\Api\post-tasks" />
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components\modals\authorization" />
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components\card-header" />
+      <recent name="B:\OpenServer\OSPanel\domains\team-todo\src\components\app-header" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -106,13 +135,19 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:lesson@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="31" BundledDictionary0="@types.dic" BundledDictionary1="lodash.dic" BundledDictionary2="eslint-config-airbnb.dic" BundledDictionary3="jetbrains.dic" BundledDictionary4="firebase.dic" BundledDictionary5="english.dic" BundledDictionary6="vuex.dic" BundledDictionary7="twig.dic" BundledDictionary8="eslint.dic" BundledDictionary9="redux.dic" BundledDictionary10="less.dic" BundledDictionary11="core-js.dic" BundledDictionary12="express.dic" BundledDictionary13="prettier.dic" BundledDictionary14="angular.dic" BundledDictionary15="rxjs.dic" BundledDictionary16="vuetify.dic" BundledDictionary17="css.dic" BundledDictionary18="request.dic" BundledDictionary19="zone.js.dic" BundledDictionary20="@angular.dic" BundledDictionary21="async.dic" BundledDictionary22="bluebird.dic" BundledDictionary23="_javascript.dic" BundledDictionary24="cloudfront.dic" BundledDictionary25="graphql.dic" BundledDictionary26="javascript.dic" BundledDictionary27="heroku.dic" BundledDictionary28="vue.dic" BundledDictionary29="php.dic" BundledDictionary30="debug.dic" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -126,7 +161,12 @@
       <workItem from="1580203970463" duration="6170000" />
       <workItem from="1580329795508" duration="6201000" />
       <workItem from="1580540941523" duration="85000" />
-      <workItem from="1580744899660" duration="4710000" />
+      <workItem from="1580744899660" duration="8307000" />
+      <workItem from="1580889444387" duration="532000" />
+      <workItem from="1580890014778" duration="298000" />
+      <workItem from="1580890337521" duration="1339000" />
+      <workItem from="1581355101103" duration="1455000" />
+      <workItem from="1581625990097" duration="747000" />
     </task>
     <servers />
   </component>
@@ -137,42 +177,58 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581355216298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581355216298" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581626628918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581626628918" />
     <state x="515" y="293" key="EditFileWatcherDialog" timestamp="1580205548304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="515" y="293" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580205548304" />
-    <state width="1879" height="261" key="GridCell.Tab.0.bottom" timestamp="1580754060919">
+    <state width="636" height="259" key="GridCell.Tab.0.bottom" timestamp="1581626199258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580754060919" />
-    <state width="1879" height="261" key="GridCell.Tab.0.center" timestamp="1580754060919">
+    <state width="636" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581626199258" />
+    <state width="636" height="259" key="GridCell.Tab.0.center" timestamp="1581626199258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580754060919" />
-    <state width="1879" height="261" key="GridCell.Tab.0.left" timestamp="1580754060918">
+    <state width="636" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581626199258" />
+    <state width="636" height="259" key="GridCell.Tab.0.left" timestamp="1581626199258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580754060918" />
-    <state width="1879" height="261" key="GridCell.Tab.0.right" timestamp="1580754060919">
+    <state width="636" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581626199258" />
+    <state width="636" height="259" key="GridCell.Tab.0.right" timestamp="1581626199258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580754060919" />
+    <state width="636" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581626199258" />
     <state x="540" y="256" key="IDE.errors.dialog" timestamp="1580330715004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="256" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580330715004" />
-    <state x="764" y="440" key="NewPhpFileDialog" timestamp="1580748880910">
+    <state x="612" y="320" key="NewPhpClassDialog" timestamp="1580755407826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="764" y="440" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580748880910" />
+    <state x="612" y="320" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580755407826" />
+    <state x="764" y="440" key="NewPhpFileDialog" timestamp="1581626733219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="440" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581626733219" />
     <state x="727" y="147" key="RollbackChangesDialog" timestamp="1580752924783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="147" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580752924783" />
-    <state x="595" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580745289422">
+    <state x="491" y="163" key="SettingsEditor" timestamp="1580889985529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="595" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580745289422" />
+    <state x="491" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580889985529" />
+    <state x="595" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580890336763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580890336763" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580333758385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
